@@ -116,6 +116,10 @@ textarea {
       font-size: 2em;
 }
 
+    h2 {
+      font-family: 'Kaushan Script', cursive;
+    }
+
 /* .page-header */
 
 .page-header {
@@ -161,7 +165,7 @@ textarea {
 
 .banner__content h2 {
     margin-top: 0;
-    font-size: 2.5em;
+    font-size: 4em;
 }
 
 
@@ -174,6 +178,7 @@ textarea {
 
 .page-section h2 {
     text-align: center;
+    font-size: 2em;
     color: #5b4137;
 }
 
@@ -187,6 +192,7 @@ textarea {
 .cabin-thumb img {
     position: relative;
     z-index: -10;
+    border: 1px solid #5b4137;
 }
 
 .cabin-thumb h3 {
