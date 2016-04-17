@@ -141,6 +141,10 @@ textarea {
     font-size: 1.25em;
 }
 
+.main-nav .nav-icon {
+  cursor: pointer;
+}
+
 /* .page-banner */
 
 .page-banner {
