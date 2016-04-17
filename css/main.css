@@ -199,6 +199,12 @@ textarea {
     background-color: #5b4137;
 }
 
+.cabin-thumb figcaption {
+    font-size: .8em;
+    color: #5b4137;
+    font-style: italic;
+}
+
 .cabin-button {
     position: relative;
     width: 100%;
