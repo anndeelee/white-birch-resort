@@ -103,31 +103,36 @@ textarea {
 }
 
    body {
-    padding-top: 6em;
+      padding-top: 6em;
+      font-family: 'Open Sans', sans-serif;
 }
 
    img {
-    max-width: 100%;
+      max-width: 100%;
 }
 
     h1 {
-    font-size: 1.5em;
+      font-family: 'Kaushan Script', cursive;
+      font-size: 2em;
 }
+
+/* .page-header */
 
 .page-header {
     background: #fff;
     color: #5f6906;
-    padding: 1em;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    padding: 0.5em;
     z-index: 100;
 }
 .page-header .main-nav {
     position: absolute;
-    top: 1em;
-    right: 1em;
+    top: 1.5em;
+    right: 3em;
+    font-size: 1.25em;
 }
 
 /* .page-banner */
@@ -156,7 +161,7 @@ textarea {
 
 .banner__content h2 {
     margin-top: 0;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 
@@ -168,8 +173,8 @@ textarea {
 }
 
 .page-section h2 {
-  text-align: center;
-  color: #5b4137;
+    text-align: center;
+    color: #5b4137;
 }
 
 .cabin-thumb {
@@ -187,22 +192,23 @@ textarea {
 .cabin-thumb h3 {
     position: absolute;
     top: 65%;
-    left: 10;
     margin: 0;
+    padding: 5px 10px;
     color: #fff;
     z-index: -5;
+    background-color: #5b4137;
 }
 
 .cabin-button {
-  position: relative;
-  width: 100%;
-  padding: 10px;
-  text-align: center;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
 }
 
 .btn {
     display: inline-block;
-    font-size: 1em;
+    font-size: 0.75em;
     padding: 0.5em 3em;
     text-decoration: none;
     background: #5f6906;
@@ -210,14 +216,15 @@ textarea {
 }
 
 .btn:hover {
-    background: #000;
+    background: #5b4137;
     color: #fff;
 }
 
 .slides-text-map {
-  margin-left: 7%;
-  margin-right: 7%;
-  padding-bottom: 3em;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-bottom: 3em;
+    padding-top: 10px;
 }
 
 .slides {
@@ -232,20 +239,24 @@ textarea {
     z-index: -10;
 }
 .description {
-  position: relative;
-  width: 35%;
-  float: left;
+    position: relative;
+    width: 35%;
+    float: left;
 }
 
 .description p {
-  color: #5b4137;
+    font-size: 0.85em;
+    color: #5b4137;
 }
 
 .map {
-  position: relative;
+    position: relative;
 }
 
+/* .page-footer */
+
 .page-footer {
+    font-size: 0.85em;
     text-align: center;
     color: #fff;
     background: #5f6906;
