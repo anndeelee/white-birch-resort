@@ -134,15 +134,65 @@ textarea {
     padding: 0.5em;
     z-index: 100;
 }
-.page-header .main-nav {
-    position: absolute;
-    top: 1.5em;
-    right: 3em;
-    font-size: 1.25em;
+
+/* .main-nav */
+
+.main-nav {
+  background-color: rgba(91, 65, 55, 0.9);
+  position: fixed;
+  top: 6.4em;
+  width: 100%;
+  padding-left: 55%;
+  z-index: 1;
 }
 
-.main-nav .nav-icon {
-  cursor: pointer;
+.main-nav ul {
+  margin: 0;
+}
+
+.main-nav li {
+  display: inline-block;
+  padding: .75em 1em;
+}
+
+.main-nav li a {
+  color: #fff;
+  text-decoration: none;
+  padding: .5em;
+}
+
+.main-nav li a:hover {
+  background-color: #5b4137;
+}
+
+/* #signup */
+
+#signup {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+    text-align:center;
+    z-index: 1000;
+}
+
+#signup > div {
+    width:400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding:15px;
+    border: 1px #5b4137 solid;
+}
+
+#signup h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+.form-field {
+  margin: 10px;
 }
 
 /* .page-banner */

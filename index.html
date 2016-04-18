@@ -24,10 +24,39 @@
         <!-- Add your site or application content here -->
         <header class="page-header">
             <h1>White Birch Resort</h1>
-            <nav class="main-nav">
-              <i class="nav-icon fa fa-bars"></i>
-            </nav>
         </header>
+
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#">Cabins</a></li>
+            <li><a href="#">Rates</a></li>
+            <li><a href="#">Reservations</a></li>
+            <li><a href="#" onclick="toggleDialog();">Sign-Up</a></li>
+          </ul>
+        </nav>
+
+<!-- Pop up form -->
+          <div id="signup">
+            <div>
+            <form action="#">
+              <fieldset>
+              <h1>Join our mailing list</h1>
+          <div class="form-field">
+              <label for="name">Name:</label>
+              <input type="text" id="name" placeholder="Enter name" name="name"/>
+          </div>
+          <div class="form-field">
+              <label for="email">Email:</label>
+              <input type="email" id="email" placeholder="Enter email" name="email"/>
+          </div>
+
+              </fieldset>
+
+              <input type="submit" value="Submit" onclick="toggleDialog()">
+            </form>
+          </div>
+          </div>
+<!-- form end -->
 
         <section class="page-banner">
           <img class="banner__bg" src="img/lake-bg.jpg" alt="Blackduck Lake">
